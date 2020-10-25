@@ -1,0 +1,101 @@
+/* nav */
+.wegowin{
+    color: white;   
+}
+
+.nav-li{
+    transition: 2s;
+    border-bottom: white;
+}
+
+.nav-li:hover{
+    border-bottom: 1px solid white;
+}
+
+.nav-get-started{
+    transition: 2s;
+}
+
+.nav-get-started:hover{
+    background-color: white;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.fa-bell:hover{
+    color: red;
+}
+
+nav{
+    min-height: 80px;
+}
+
+/* akhir nav */
+
+/* jumbotron */
+.jumbotron{
+    background-image: url("picture nav/jumbo-about.png");
+    background-size: cover;
+    background-position: 0 -60px;
+    min-height: 300px;
+}
+
+.h1-jumbo{
+    font-size: 45px; 
+    transition: 1s;
+    color: #cdc8c3;
+
+}
+
+.h1-jumbo:hover{
+    color: white;
+    transition: 2s;
+}
+/* akhir jumbo */
+
+/* koten1 */
+.borderisasi{
+    transition: 1s;
+    
+}
+
+.borderisasi:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+    
+/* akhir konten 1 */
+
+/* konten 3 */
+.gambar-konten3{
+    border-radius: 50%;
+    border: black solid 1px;
+}
+/* akhir konten 3 */
+
+/* footer */
+.bg-twit{
+    background-color: skyblue;
+}
+
+.bg-insta{
+    background-color: red;
+}
+
+.hr-footer{
+    border-bottom: white solid 5px;
+    width: 20%;
+    transition: 1s;
+}
+
+.wego-footer:hover .hr-footer{
+    width: 40%;
+    transition: 2s;
+}
+
+.question-footer{
+    color: black;
+    text-decoration: none;
+}
+
+/* akhir footer */

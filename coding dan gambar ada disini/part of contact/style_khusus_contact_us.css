@@ -1,0 +1,84 @@
+
+/* awal nav */
+.wegowin{
+    color: white;
+}
+
+.nav-li{
+    transition: 2s;
+    border-bottom: white;
+}
+
+.nav-li:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.nav-get-started{
+    transition: 2s;
+}
+
+.nav-get-started:hover{
+    background-color: white;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.fa-bell:hover{
+    color: red;
+}
+
+nav{
+    min-height: 80px;
+}
+
+/* akhir dari nav */
+
+/* awal jumbotron */
+
+.background-jumbo{
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
+    background: url("jumbo.png");
+}
+
+.header-text-jumbo{
+    font-size: 60px;
+    margin-top: 110px;
+}
+/* akhir jumbotron */
+
+/* awal konten 1 */
+
+
+.map-konten-1{
+    height: 300px !important;
+    width: 450px !important;
+}
+
+/* akhir konten 1 */
+
+.bg-twit{
+    background-color: skyblue;
+}
+
+.bg-insta{
+    background-color: red;
+}
+
+.hr-footer{
+    border-bottom: white solid 5px;
+    width: 20%;
+    transition: 1s;
+}
+
+.wego-footer:hover .hr-footer{
+    width: 40%;
+    transition: 2s;
+}
+
+.question-footer{
+    color: black;
+    text-decoration: none;
+}

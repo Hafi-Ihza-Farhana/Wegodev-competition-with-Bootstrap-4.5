@@ -1,0 +1,216 @@
+
+.wegowin{
+    color: white;
+    
+}
+
+.nav-li{
+    transition: 2s;
+    border-bottom: white;
+}
+
+.nav-li:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.nav-get-started{
+    transition: 2s;
+}
+
+.nav-get-started:hover{
+    background-color: white;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.fa-bell:hover{
+    color: red;
+}
+
+nav{
+    min-height: 80px;
+}
+
+/* akhir dari nav */
+
+/* awal dari jumbotron */
+/* .jumbotron{
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+
+} */
+
+.jumbotron{
+    background-image: url("picture jumbo/gambar1.jpg");
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+}
+
+.sambutan{
+    font-size: 90px;
+    color: white;
+    border-right: 5px black solid;
+    /* border-left: 5px black solid ; */
+    /* border-bottom: 5px black solid; */
+    padding: 10px;
+    text-align: center;
+    /* transition: 10s; */
+    transition: 1s;
+}
+
+.sambutan:hover{
+    border-right: 5px white dotted;
+    color: #D5FF36;
+    transition: 2s;
+}
+
+.isi-sambutan {
+    font-size: 20px;
+    
+}
+
+.sambutann{
+    transition: 1s;
+    color: white;
+}
+
+.hr-jumbo{
+    border-bottom: solid white 5px;
+    width: 20%;
+    transition: 1s;
+}
+
+.hover-to-hr{
+    transition: 1s;
+}
+
+.hover-to-hr:hover span{
+    color:black;
+    transition: 2s;
+}
+
+.hover-to-hr:hover .hr-jumbo{
+    transition: 2s;
+    width: 50%;
+}
+
+.jumbo-buton{
+    margin-top: 40px;
+        
+    line-height: 30px;
+}
+
+.jumbo-buton a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* akhir dari jumbotron */
+
+/* awal dari konten 1 */
+.container-isi{
+    margin-top: 50px;
+}
+
+.row .card-konten1:hover{
+    box-shadow: 2px 2px 1px #DBB400;
+    transform: scale(1.02);
+}
+/* akhir dari konten 1 */
+
+/* awal dari konten 2 */
+
+.hr-konten2{
+    width: 20%;
+    border-bottom: black solid 2px;
+    transition: 1s;
+}
+
+.isi-konten2:hover .hr-konten2{
+    width: 50%;
+    transition: 2s;
+}
+
+.card-free:hover{
+    /* box-shadow: 2px 2px 1px black; */
+    transform: scale(1.02);
+}
+
+.card-starter:hover{
+    /* box-shadow: 2px 2px 1px skyblue; */
+    transform: scale(1.02);
+}
+
+ .card-standart:hover{
+    /* box-shadow: 2px 2px 1px red; */
+    transform: scale(1.02);
+}
+
+.card-enhanced:hover{
+    /* box-shadow: 2px 2px 1px green; */
+    transform: scale(1.02);
+}
+
+/* akhir dari konten 2 */
+
+/* awal konten 3 */
+.hr-konten3{
+    width: 20%;
+    border-bottom: black solid 2px;
+    transition: 1s;
+}
+
+.isi-konten3:hover .hr-konten3{
+    width: 50%;
+    transition: 2s;
+}
+
+.gambar-3{
+    border-radius: 90%;
+    border: .5px solid gray;
+    
+}
+
+.gambar-3:hover{
+    box-shadow:  1px  .1px gray;
+    transform: scale(1.01);
+}
+
+.hr-konten-isi-3{
+    border-bottom: .1px;
+    border-bottom-color: black;
+}
+
+/* akhir konten 3 */
+
+/* footer */
+.bg-twit{
+    background-color: skyblue;
+}
+
+.bg-insta{
+    background-color: red;
+}
+
+.hr-footer{
+    border-bottom: white solid 5px;
+    width: 20%;
+    transition: 1s;
+}
+
+.wego-footer:hover .hr-footer{
+    width: 40%;
+    transition: 2s;
+}
+
+.question-footer{
+    color: black;
+    text-decoration: none;
+}
+
+/* =================================================================================================================================================================================================================================================================================================================================================== */
